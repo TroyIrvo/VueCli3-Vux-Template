@@ -1,0 +1,108 @@
+
+html, body{
+	height: 100%;
+	background:#f5f5f5;
+}
+[v-cloak] {
+    display: none;
+}
+.mescroll {
+	position: fixed;
+	top: 2.875rem /* 46/16 */;
+	bottom: 3.125rem /* 50/16 */;
+	height: auto;
+	z-index: 2;
+}
+.mescroll-totop{
+	bottom:1.875rem /* 30/16 */;
+}
+
+.top_nav{
+	position: fixed;
+	width:100%;
+	z-index: 3;
+	left:0;
+	top:0;
+}
+
+.view_wrap{
+	width:100%;
+	padding-top:2.875rem /* 46/16 */;
+	padding-bottom: 3.125rem /* 50/16 */;
+}
+
+/*修复弹窗位移*/
+.vux-confirm .weui-dialog{
+	transform: translate(0%, 0%);
+}
+.vux-confirm .weui-dialog__bd{
+	min-height: .25rem /* 4/16 */;
+}
+/*修复弹窗位移*/
+.vux-x-dialog .weui-dialog{
+	transform: translate(0%, 0%);
+}
+.vux-x-dialog .weui-dialog__bd{
+	min-height: .25rem /* 4/16 */;
+}
+
+
+
+
+.font_12 {
+    font-size: .75rem /* 12/16 */ !important;
+}
+.font_14 {
+    font-size: .875rem /* 14/16 */ !important;
+}
+
+.color_red {
+    color: red;
+}
+.color_blue {
+    color: #10aeff;
+}
+.color_000{
+    color: #000000;
+}
+.color_333 {
+    color: #333333;
+}
+
+.color_666 {
+    color: #666666;
+}
+
+.color_d7 {
+    color: #D7D7D7;
+}
+
+.color_999 {
+    color: #999999;
+}
+
+.color_f80 {
+    color: #f80;
+}
+
+.color_2a99f4 {
+    color: #2a99f4;
+}
+
+.color_fff {
+    color: #ffffff;
+}
+
+.color_65ff01 {
+    color: #5cb85c;
+}
+
+.color_009fff {
+    color: #009fff;
+}
+.weui-btn_primary{
+	background: -webkit-linear-gradient(left, #1e88ea, #2bd6d4); /* Safari 5.1 - 6.0 */
+	background: -o-linear-gradient(right, #1e88ea, #2bd6d4); /* Opera 11.1 - 12.0 */
+	background: -moz-linear-gradient(right, #1e88ea, #2bd6d4); /* Firefox 3.6 - 15 */
+	background: linear-gradient(to right, #1e88ea, #2bd6d4); /* 标准的语法 */
+}
